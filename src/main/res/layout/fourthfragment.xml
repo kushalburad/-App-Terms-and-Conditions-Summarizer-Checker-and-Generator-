@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:scrollbarThumbVertical="@drawable/whitescrollbar">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/whitescrollbar"
+                android:padding="10dp"
+                android:layout_marginRight="40dp"
+                android:text="Permissions required"
+                android:textColor="#2546FF"
+                android:textSize="22dp" />
+            <CheckBox
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Phone"
+                android:drawableRight="@drawable/phone"
+                android:drawablePadding="10dp"
+                android:id="@+id/checkPhone"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:buttonTint="#FFF"
+                android:textSize="20dp"
+                android:textColor="#FFF"
+            />
+            <CheckBox
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Call History"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/callhistory"
+                android:id="@+id/checkCallHistory"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:textSize="20dp"
+                android:buttonTint="#FFF"
+                android:textColor="#FFF"
+                />
+            <CheckBox
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Contacts"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/contacts"
+                android:id="@+id/checkContacts"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:buttonTint="#FFF"
+                android:textSize="20dp"
+                android:textColor="#FFF"
+                />
+            <CheckBox
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="SMS"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/sms"
+                android:id="@+id/checkSMS"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:textSize="20dp"
+                android:buttonTint="#FFF"
+                android:textColor="#FFF"
+                />
+            <CheckBox
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Location Info"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/locationhistory"
+                android:id="@+id/checkLocation"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:textSize="20dp"
+                android:buttonTint="#FFF"
+                android:textColor="#FFF"
+                />
+            <CheckBox
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Camera"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/camera"
+                android:id="@+id/checkCamera"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:buttonTint="#FFF"
+                android:textSize="20dp"
+                android:textColor="#FFF"
+                />
+            <CheckBox
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Microphone"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/microphone"
+                android:id="@+id/checkMicro"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:buttonTint="#FFF"
+                android:textSize="20dp"
+                android:textColor="#FFF"
+                />
+            <CheckBox
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Storage"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/storage"
+                android:id="@+id/checkStorage"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:buttonTint="#FFF"
+                android:textSize="20dp"
+                android:textColor="#FFF"
+                />
+            <CheckBox
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Calender"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/calender"
+                android:id="@+id/checkCalender"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:buttonTint="#FFF"
+                android:textSize="20dp"
+                android:textColor="#FFF"
+                />
+            <CheckBox
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Body Sensor"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/bodysensor"
+                android:id="@+id/checkBody"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:buttonTint="#FFF"
+                android:textSize="20dp"
+                android:textColor="#FFF"
+                />
+            <CheckBox
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Motion and Fitness"
+                android:drawableRight="@drawable/motionandfitness"
+                android:id="@+id/checkMotion"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:buttonTint="#FFF"
+                android:textSize="20dp"
+                android:textColor="#FFF"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

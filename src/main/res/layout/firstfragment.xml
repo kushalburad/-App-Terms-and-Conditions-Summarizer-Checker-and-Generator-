@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/whitescrollbar"
+        android:padding="10dp"
+        android:text="App Information"
+        android:textColor="#2546FF"
+        android:textSize="22dp" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="18dp"
+        android:layout_marginTop="50dp"
+        android:textColor="#FFF"
+        android:textColorHint="#FFF"
+        android:textCursorDrawable="@drawable/textcursorbg"
+        android:padding="10dp"
+        android:inputType="textPersonName"
+        android:hint="App Name" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#FFF"
+        android:textSize="18dp"
+        android:textColorHint="#FFF"
+        android:hint="Contact Info"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/editTextInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:textColorHint="#FFF"
+        android:textColor="#FFF"
+        android:textSize="18dp"
+        android:padding="10dp"
+        android:inputType="textPersonName"
+        android:hint="More Information" />
+</LinearLayout>

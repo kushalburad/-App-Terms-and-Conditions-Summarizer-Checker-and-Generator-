@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/whitescrollbar"
+        android:padding="10dp"
+        android:text="Company or Individual ?"
+        android:textColor="#2546FF"
+        android:textSize="22dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupCompany"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="match_parent"
+            android:textSize="20dp"
+            android:textColor="#FFF"
+            android:buttonTint="#FFF"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textColorHint="#FFF"
+            android:textCursorDrawable="@drawable/textcursorbg"
+            android:layout_height="wrap_content"
+            android:text="Company" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:textSize="20dp"
+            android:padding="10dp"
+            android:buttonTint="#FFF"
+            android:textColor="#FFF"
+            android:layout_marginTop="10dp"
+            android:textColorHint="#FFF"
+            android:textCursorDrawable="@drawable/textcursorbg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Individual" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/editCI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="18dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFF"
+        android:textColorHint="#FFF"
+        android:textCursorDrawable="@drawable/textcursorbg"
+        android:padding="10dp"
+        android:inputType="textPersonName"
+        android:hint="Name" />
+
+</LinearLayout>

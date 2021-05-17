@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/whitescrollbar"
+        android:padding="10dp"
+        android:text="App Type"
+        android:textColor="#2546FF"
+        android:textSize="22dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <RadioButton
+            android:id="@+id/btnFree"
+            android:textColor="#FFF"
+            android:padding="10dp"
+            android:buttonTint="#FFF"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Free" />
+
+        <RadioButton
+            android:id="@+id/btnOpenSource"
+            android:textColor="#FFF"
+            android:padding="10dp"
+            android:buttonTint="#FFF"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Open Source" />
+
+        <RadioButton
+            android:id="@+id/btnFreemium"
+            android:padding="10dp"
+            android:buttonTint="#FFF"
+            android:textSize="20dp"
+            android:textColor="#FFF"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Freemium" />
+
+        <RadioButton
+            android:id="@+id/btnAd"
+            android:textColor="#FFF"
+            android:padding="10dp"
+            android:buttonTint="#FFF"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AD Supported" />
+
+        <RadioButton
+            android:id="@+id/btnPaid"
+            android:textColor="#FFF"
+            android:padding="10dp"
+            android:buttonTint="#FFF"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Paid" />
+    </RadioGroup>
+</LinearLayout>

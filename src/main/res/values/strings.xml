@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TermsNCon</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">We Are Here</string>
+    <string name="nav_header_subtitle">Ensuring Your Data Safety</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_summary">Summary</string>
+    <string name="menu_termschecker">Terms Checker</string>
+    <string name="menu_termsmaker">Terms Maker</string>
+    <string name="exit">Exit</string>
+</resources>

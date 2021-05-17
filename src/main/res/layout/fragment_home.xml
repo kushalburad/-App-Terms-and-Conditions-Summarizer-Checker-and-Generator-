@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    tools:context=".HomeFragment">
+
+    <ImageButton
+        android:id="@+id/btnSummary"
+        android:layout_width="95dp"
+        android:layout_height="111dp"
+        android:background="#FFF"
+        android:scaleType="fitCenter"
+        android:src="@drawable/vector_summary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.077" />
+
+    <ImageButton
+        android:id="@+id/btnMaker"
+        android:layout_width="129dp"
+        android:layout_height="114dp"
+        android:background="#FFF"
+        android:scaleType="fitCenter"
+        android:src="@drawable/vector_maker"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.824" />
+
+    <ImageButton
+        android:id="@+id/btnChecker"
+        android:layout_width="99dp"
+        android:layout_height="105dp"
+        android:background="#FFF"
+        android:scaleType="fitCenter"
+        android:src="@drawable/vector_check"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.448" />
+
+    <TextView
+        android:id="@+id/txtSummary"
+        android:layout_width="222dp"
+        android:layout_height="36dp"
+        android:background="#000"
+        android:gravity="center"
+        android:text="Generate Summary"
+        android:textColor="#FFF"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnChecker"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSummary"
+        app:layout_constraintVertical_bias="0.426" />
+
+    <TextView
+        android:id="@+id/txtChecker"
+        android:layout_width="222dp"
+        android:layout_height="36dp"
+        android:background="#000"
+        android:gravity="center"
+        android:text="Check Terms"
+        android:textColor="#FFF"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnMaker"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnChecker"
+        app:layout_constraintVertical_bias="0.454" />
+
+    <TextView
+        android:id="@+id/txtMaker"
+        android:layout_width="222dp"
+        android:layout_height="36dp"
+        android:gravity="center"
+        android:text="Make New Terms"
+        android:textColor="#FFF"
+        android:background="#000"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMaker"
+        app:layout_constraintVertical_bias="0.295" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
