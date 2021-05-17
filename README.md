@@ -1,0 +1,2 @@
+# -App-Terms-and-Conditions-Summarizer-Checker-and-Generator-
+App Terms and Conditions: Summarizer, Checker and Generator  is a all in one app which provides important features like  generation of summary containing 200 words from a given terms and condition passage of the app which you are looking forward to download in future  ,apply sentiment analysis on it and display the sentence containing high negative sentiment furthermore, it provides an additional feature of generating terms and condition for your app. 
